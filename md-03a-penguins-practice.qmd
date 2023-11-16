@@ -206,7 +206,7 @@ penguins |>
 penguins |> 
   filter (island=="Torgersen"| island == "Biscoe") |> 
   filter(sex=="female") |> 
-  count()
+  count(sex)
 ```
 
 ## Task 7: Data communication
